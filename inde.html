@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<h1>The Great 
+		<br>
+		<span id="colorDisplay">RGB</span> 
+		<br>
+		Color Game
+	</h1>
+
+	<div id="stripe">
+		<button id="reset">New Colors</button>
+		<span id="message"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Hard</button>
+	</div>
+  
+  <div class="alert alert-info">
+  <strong>Hello!</strong><br> Test your knowledge of RGB color codes. Look at the number above, and guess which square matches the RGB code.<br><br> (Hint: Remember the first number indicates the amount of RED, the second number indicates the amount of GREEN, and the third number indicates the amount of BLUE.)<br>
+  <a href="#" class="close" data-dismiss="alert">Ok, got it!</a>
+  <br>
+</div>
+
+	<div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+<script type="text/javascript" src="colorgame.js"></script>
+</body>
+</html>
